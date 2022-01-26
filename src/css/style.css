@@ -83,7 +83,7 @@ section.marcas img{
 
 section.porque-nos {
     padding: 40px;
-    background-color: #FBFBFB;
+    background-color: #FBFCFE;
 
 }
 
@@ -93,16 +93,65 @@ section.porque-nos > .center > h2 {
     width: 100%;
 }
 
-section.porque-nos > .center > h2 {
+section.porque-nos > .center > p {
     font-size: 14px;
+    color: #CCC;
     text-align: center;
     width: 100%;
-    color: #CCC;
 }
 
+.diferenciais {
+    display: flex;
+    margin-top: 50px;
+}
+
+.box-diferenciais {
+    box-shadow: 0 20px 40px #2426721C;
+    width: 31%;
+    margin-right: 2%;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-diferenciais h3 {
+    font-size: 28px;
+    color: black;
+    margin: 0 20px;
+    margin-bottom: 20px ;
+    
+}
+
+.box-diferenciais p {
+    font-size: 13px;
+    color: #7E92AC;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .diferenciais {
+        flex-wrap: wrap;
+        margin:0 auto;
+        text-align: center;
+    }
+
+    .box-diferenciais {
+        width: 100%;
+        max-width: 70%;
+        margin-right: 0;
+        padding: 15px 35px;
+    }
+
+    section.marcas{
+        text-align: center;
+    }
+
+    section.marcas img {
+        max-width: 100%;
+    }
 
 
-
+}
 
 
 
