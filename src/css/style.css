@@ -130,6 +130,36 @@ section.porque-nos > .center > p {
     margin-bottom: 20px;
 }
 
+section.cta {
+    background-image: url('/src/images/BANNER-IMG.svg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 10px;
+    color: white;
+    text-align: center;
+}
+
+section.cta h2,
+section.cta h4{
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+section.cta h2{
+    font-size: 40px;
+}
+
+section.cta a{
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 17px;
+    background: #FFDD33;
+    text-decoration: none;
+    color: #0F3FD3;
+}
+
 @media screen and (max-width: 900px) {
     .diferenciais {
         flex-wrap: wrap;
@@ -142,7 +172,7 @@ section.porque-nos > .center > p {
         padding: 15px 35px;
     }
 
-    .center{
+    .marcas .center{
         display: inline-grid;
     }
 
