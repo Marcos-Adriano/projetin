@@ -46,6 +46,7 @@ section.main {
 
 .items-menu a:hover {
     border-bottom: 3px solid #FFDD33;
+    transition: 0.3s ease-in-out;
 }
 
 .items-menu a.contact-btn {
@@ -74,7 +75,7 @@ section.main {
 }
 
 section.marcas {
-    padding: 100px 0;
+    padding: 70px 0;
 }
 
 section.marcas img{
@@ -91,6 +92,7 @@ section.porque-nos > .center > h2 {
     font-size: 64px;
     text-align: center;
     width: 100%;
+    margin-bottom: 20px;
 }
 
 section.porque-nos > .center > p {
@@ -131,15 +133,17 @@ section.porque-nos > .center > p {
 @media screen and (max-width: 900px) {
     .diferenciais {
         flex-wrap: wrap;
-        margin:0 auto;
-        text-align: center;
     }
 
     .box-diferenciais {
         width: 100%;
-        max-width: 70%;
-        margin-right: 0;
+        max-width: 550px;
+        margin: 0 auto;
         padding: 15px 35px;
+    }
+
+    .center{
+        display: inline-grid;
     }
 
     section.marcas{
@@ -147,7 +151,7 @@ section.porque-nos > .center > p {
     }
 
     section.marcas img {
-        max-width: 100%;
+        width: 100%;
     }
 
 
