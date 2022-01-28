@@ -45,8 +45,8 @@ section.main {
 }
 
 .items-menu a:hover {
-    border-bottom: 3px solid #FFDD33;
-    transition: 0.3s ease-in-out;
+    border-bottom: 2px solid #FFDD33;
+    /* transition: 0.3s ease-in-out; */
 }
 
 .items-menu a.contact-btn {
@@ -343,10 +343,41 @@ section.contato form {
     border-radius: 10px;
 }
 
+footer {
+    padding: 10px 0;
+    background: #255AFF;
+    color: white;
+}
+
+.text-footer {
+    width: 50%;
+    padding: 8px 0;
+}
+
 @media screen and (max-width: 900px) {
+    footer .items-menu {
+        width: 100%;
+        text-align: center;
+    }
+
+    footer .items-menu a {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .text-footer {
+        width: 100%;
+        text-align: center;
+        padding: 8px 0;
+    }
+
     .lista-beneficios, .img-beneficios {
         width: 100%;
         margin-bottom: 30px;
+    }
+    .lista-beneficios h1 {
+        margin: 0 auto;
     }
 
     .diferenciais {
@@ -362,6 +393,10 @@ section.contato form {
 
     .marcas .center{
         display: inline-grid;
+    }
+
+    .center .img-beneficios {
+        margin: 0 auto;
     }
 
     section.marcas{
