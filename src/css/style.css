@@ -176,6 +176,10 @@ section .beneficios {
     margin-right: auto;
 }
 
+.lista-beneficios h1 {
+    font-size: 40px;
+}
+
 .lista-beneficios p {
     color: #7E92AC;
     vertical-align: middle;
@@ -201,19 +205,86 @@ section .beneficios {
     border: 20px solid white;
     border-radius: 10px;
     margin-left: 30px;
-    max-height: 220px;
-    max-width: 300px;
+    max-height: 15rem;
+    max-width: 20rem;
     
 }
 
 .img-beneficios img {
-    max-width: 100%;
-    max-height: 180px;
-    
+    max-width: 100%;   
     border-radius: 10px;
 }
 
+section.depoimentos {
+    background-color: #FBFCFE;
+    padding:40px 0;
+}
+
+section.depoimentos h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-slider {
+    overflow:hidden;
+    padding: 40px 0;
+}
+
+.container-slider-single {
+    float: left;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.slick-slide {
+    margin-left: 27px;
+}
+
+.slick-list {
+    margin-left: -27px;
+}
+
+.slick-dotted ul{
+    display: block;
+	list-style-type: none;
+	text-align: center;
+	position: relative;
+	top:30px;
+}
+
+.slick-dotted li{
+	display: inline-block;
+	margin: 0 7px;
+}
+
+.slick-dotted button:focus{
+	outline: 0;
+}
+
+.slick-dotted li button{
+	width: 16px;
+	height: 16px;
+	border-radius: 8px;
+	color: #d8d8d8;
+	border-width: 0;
+	background: #d8d8d8;
+	opacity: 1;
+	cursor: pointer;
+}
+
+li.slick-active button{
+	background: #373855;
+	color: #373855;
+}
+
+.slick-slide:focus { outline: none; }
+
 @media screen and (max-width: 900px) {
+    .lista-beneficios, .img-beneficios {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
     .diferenciais {
         flex-wrap: wrap;
     }
