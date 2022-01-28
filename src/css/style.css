@@ -131,7 +131,7 @@ section.porque-nos > .center > p {
 }
 
 section.cta {
-    background-image: url('../images/BANNER-IMG.svg');
+    background-image: url('../images/BANNER-IMG.svg'); 
     background-size: cover;
     background-position: center;
     padding: 35px 10px;
