@@ -14,7 +14,7 @@
 }
 
 section.main {
-    background-image: url('/src/images/HERO-BACKGROUNDP.png');
+    background-image: url('./src/images/HERO-BACKGROUNDP.png');
     background-position: center;
     background-size: cover;
     min-height: 700px;
@@ -131,7 +131,7 @@ section.porque-nos > .center > p {
 }
 
 section.cta {
-    background-image: url('/src/images/BANNER-IMG.svg');
+    background-image: url('./src/images/BANNER-IMG.svg');
     background-size: cover;
     background-position: center;
     padding: 35px 10px;
@@ -312,7 +312,7 @@ section.contato form {
 .contato input[type=text],
 .contato input[type=email]{
     width: 100%;
-    height: 50px;
+    height: 40px;
     margin: 10px 0;
     border-radius: 10px;
     background: #FCFDFF;
@@ -323,8 +323,8 @@ section.contato form {
 .contato textarea {
     width: 100%;
     height: 130px;
-    border-radius: 10px;
     margin: 10px 0;
+    border-radius: 10px;
     resize: none;
     background: #FCFDFF;
     border: 1px solid #C3CCE8;
@@ -376,6 +376,7 @@ footer {
         width: 100%;
         margin-bottom: 30px;
     }
+
     .lista-beneficios h1 {
         margin: 0 auto;
     }
