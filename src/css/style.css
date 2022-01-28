@@ -201,13 +201,12 @@ section .beneficios {
 
 .img-beneficios {
     width: 50%;
-    box-shadow: 10px 20px 40px #1b1d571c;
+    box-shadow: 0 20px 40px #1b1d571c;
     border: 20px solid white;
     border-radius: 10px;
     margin-left: 30px;
     max-height: 15rem;
     max-width: 20rem;
-    
 }
 
 .img-beneficios img {
@@ -233,7 +232,25 @@ section.depoimentos h1 {
 .container-slider-single {
     float: left;
     background-color: white;
-    padding-top: 10px;
+    text-align: center;
+    padding: 15px 10px;
+    border-radius: 10px;
+    height: 100%;
+    box-shadow: 0 20px 40px #1b1d571c;
+    
+}
+
+.container-slider-single p {
+    margin: 15px 0;
+    color: #7E92AC;
+    font-size: 14px;
+}
+
+.container-slider-single h4 {
+    margin-top: 10px;
+    color: #7E92AC;
+    font-size: 15px;
+    font-weight: normal;
 }
 
 .slick-slide {
