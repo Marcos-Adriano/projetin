@@ -14,7 +14,7 @@
 }
 
 section.main {
-    background-image: url(./src/images/HERO-BACKGROUNDP.png);
+    background-image: url('../images/HERO-BACKGROUNDP.png');
     background-position: center;
     background-size: cover;
     min-height: 700px;
@@ -131,7 +131,7 @@ section.porque-nos > .center > p {
 }
 
 section.cta {
-    background-image: url(./src/images/BANNER-IMG.svg);
+    background-image: url('../images/BANNER-IMG.svg');
     background-size: cover;
     background-position: center;
     padding: 35px 10px;
